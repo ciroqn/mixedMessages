@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Socrates and Student</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles.css">
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Amatic+SC&family=Cinzel&family=Della+Respira&display=swap" rel="stylesheet">
+
+  </head>
+
+  <body>
+
+      <div class="title">
+        <h1>Socrates the Interviewer</h1>
+        <h5>Socrates likes to ask questions...</h5>
+      </div>
+
+  <div class="container">
+
+    <div class="row">
+
+      <div class="col-lg-12">
+
+        <div class="row">
+
+          <div class="msg col-lg-6">
+            <figure class="fig-1">
+              <img id="soc-img" src="images/socrates.png" alt="Socrates">
+              <figcaption><b>Socrates the Questioner</b></figcaption>
+            </figure>
+          </div>
+          <div class="col-lg-6" style="padding-top: 130px;">                                          <!--NOTE: inline styling here-->
+            <p id="soc-msg">I will ask the questions around here...</p>
+            <button onclick="generateQuestion()" class= "btn btn-outline-dark" type="button" name="button">Generate Question</button>
+          </div>
+
+        </div>
+
+      </div>
+
+       <div class="col-lg-12">   <!--the main divs containing socrates and student EACH take up 100% of width -->
+
+        <div class="row">
+
+          <div class="msg col-lg-6" style="padding-top: 200px;">                                     <!--NOTE: inline styling here-->
+            <p id="stud-msg">I will do the best I can to answer, Socrates.</p>
+            <button onclick="generateAnswer()" class= "btn btn-outline-dark" type="button" name="button">Generate Answer</button>
+          </div>
+          <div class="col-lg-6">
+            <figure class="fig-2">
+              <img id="soc-student" src="images/roman.png" alt="bust of roman">
+              <figcaption class="student"><b>Disgruntled Student</b></figcaption>
+            </figure>
+          </div>
+
+        </div>
+
+      </div>
+
+    </div>
+
+  </div>
+
+  <div class="footer">
+    <p id="footer">&copy; Marcus Watson</p>
+  </div>
+
+  <script src="interact.js" charset="utf-8"></script>
+
+  </body>
+</html>
