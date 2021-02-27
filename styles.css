@@ -1,0 +1,92 @@
+body {
+  background: #2a6592;
+}
+
+#soc-img {
+  height: 400px;
+  width: 380px;
+  z-index: -1;
+}
+
+#soc-student {
+  height: 400px;
+  margin: 0;
+}
+
+#stud-msg {
+  font-family: 'Amatic SC', serif;
+  font-size: 1.5rem;
+}
+
+#soc-msg {
+  font-family: 'Della Respira', 'Times New Roman', serif;
+  font-size: 1.5rem;
+
+}
+
+h1 {
+  padding: 50px 20px 40px;
+}
+
+h5 {
+  padding: 10px 20px 40px;
+}
+
+
+h1, h5 {
+  margin: 0;
+  color: white;
+  font-family: 'Cinzel', 'Times New Roman', serif;
+}
+
+figcaption {
+  color: #a8c1c6;
+  font-family: 'Cinzel', serif;
+  padding: 15px;
+}
+
+figcaption.student {
+  padding: 0;
+}
+
+button {
+  font-family: 'Cinzel', 'Times New Roman', serif;
+  padding: 30px;
+}
+
+.footer {
+  text-align: center;
+  font-size: small;
+  background: #004466;
+  margin: 40px 0 0 0;
+  padding: 50px;
+  border-top: solid;
+  border-color: #b2d0da;
+  border-width: 3px;
+}
+
+p {
+  padding: 20px;
+}
+
+.title {
+  background: #004466;
+  margin: 0;
+  text-align: center;
+  padding: 0 auto 50px;
+  border-bottom: solid;
+  border-width: 3px;
+  border-color: #b2d0da;
+}
+
+
+.container {
+  text-align: center;
+  margin: auto;
+  color: #ece6d2;
+  padding-top: 60px;
+}
+
+.main {
+  margin: 200px 0;
+}
